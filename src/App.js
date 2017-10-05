@@ -35,6 +35,7 @@ class App extends Component {
 			    <input type="text" ref={(input)=>{this.searchInput = input}} />
 			    <button onClick={this.findTrack.bind(this)}>Find Track</button>
 		    </div>
+		    
 		    <div>
 		    	<button onClick={this.props.onGetTrack} >Get tracks</button>
 		    </div>
